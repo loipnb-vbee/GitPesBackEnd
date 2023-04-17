@@ -1,0 +1,10 @@
+module.exports = {
+  PORT: process.env.PORT || 3000,
+  MONGO_URI: process.env.MONGO_URI,
+
+  JWT_REFRESH_KEY: process.env.JWT_REFRESH_KEY,
+  JWT_REFRESH_KEY_EXPIRES_TIME: process.env.JWT_REFRESH_KEY_EXPIRES_TIME,
+
+  JWT_ACESS_KEY: process.env.JWT_ACESS_KEY,
+  JWT_ACESS_KEY_EXPIRES_TIME: process.env.JWT_ACESS_KEY_EXPIRES_TIME,
+};
